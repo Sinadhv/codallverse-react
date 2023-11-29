@@ -5,7 +5,7 @@ import Header from '../components/Header'
 
 function Home (){
  return (
-  <div>
+  <div className='like-body'>
    <Header />
    <div className="introduction flex-with-center" style={{backgroundImage: `url('./circle-scatter-haikei.png')`}}>
 
@@ -21,9 +21,7 @@ function Home (){
    </div>
       <Carousel />
 
-      <div>
-        
-      </div>
+      
 
       <div className="container">
         <div className="row justify-content-start">
